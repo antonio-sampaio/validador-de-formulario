@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.screen{
+    display: flex;
+    /*overflow: hidden;*/
+    height: 100vh;
+}
+.leftside{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftside img{
+    max-width: 500px;
+    height: auto;
+    
+}
+.rightside{
+    width: 400px;
+    background-color: rgb(231, 253, 255);
+    padding: 50px;
+    font-weight: bold;
+}
+.rightside label{
+    display: block;
+    margin-bottom: 20px;
+}
+.rightside input{
+    width: 100%;
+    border: 1px solid rgb(0, 89, 255);
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 15px;
+    outline: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#button{
+    font-weight: bold;
+}
+.error{
+    font-size: 11px;
+    color: #FF0000;
+    padding: 4px;
+    border-radius: 5px;
+
+}
